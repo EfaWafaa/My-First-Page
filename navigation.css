@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.navbar li a:hover {
+  background-color: #111;
+  color: white;
+}
+
+.header {
+  padding-top: 50px;
+
+}
+
+.contacts-colour {
+  background-color: rgb(115, 141, 81);
+}
+
+.news-colour {
+  background-color: rgb(32, 159, 190);
+}
+
+.about-colour {
+  background-color: rgb(206, 100, 30);
+}
+
+.home-colour {
+  background-color: rgb(187, 73, 158);
+}
