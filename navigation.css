@@ -1,6 +1,7 @@
 html {
   margin: 0;
   padding: 0;
+  margin-left: -8 px;
 }
 
 .mainmenu {
