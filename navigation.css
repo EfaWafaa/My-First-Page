@@ -6,6 +6,7 @@ html {
 .navbar {
   list-style-type: none;
   margin: 0;
+  margin-left: -4 px;
   padding: 0;
   background-color: grey;
   position: fixed;
@@ -47,7 +48,7 @@ html {
 }
 
 .about-colour {
-  background-color: rgb(115, 141, 80);
+  background-color: rgb(253, 237, 236);
 }
 
 .home-colour {
