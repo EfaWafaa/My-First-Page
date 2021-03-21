@@ -6,7 +6,7 @@ html {
 .navbar {
   list-style-type: none;
   margin: 0;
-  margin-left: -4 px;
+  margin-left: -8 px;
   padding: 0;
   background-color: grey;
   position: fixed;
