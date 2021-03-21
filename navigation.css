@@ -3,6 +3,10 @@ html {
   padding: 0;
 }
 
+.mainmenu {
+   margin-left: -8 px;
+}
+
 .navbar {
   list-style-type: none;
   margin: 0;
