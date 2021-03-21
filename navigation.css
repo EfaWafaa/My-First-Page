@@ -57,6 +57,7 @@ html {
 
 .unordered {
   list-style-type: square;
+  list-style-position: inside;
 }
 
 .nested-ul {
