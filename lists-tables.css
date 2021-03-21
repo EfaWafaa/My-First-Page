@@ -106,11 +106,12 @@
     border: 5px solid black;
       
   }
-  td, th {
-      padding: 15px;
-      
-  table {
+table {
      border-collapse: collapse; 
+}
+  td, th {
+      padding: 15px;   
+  
   }
 
   
