@@ -57,7 +57,8 @@ html {
 
 .unordered {
   list-style-type: square;
-  line-hight: 170%;
+  line-hight: 200%;
+  color: blue;
 }
 
 .nested-ul {
