@@ -101,9 +101,10 @@
     top: 50%;
     transform: translateY(-50%);
 }
+/* css for tables  */
 
-  table, td, th {
-    border: 5px solid black;
+   td, th {
+    border: 5px solid rgb(0, 0, 0);
       
   }
 table {
@@ -117,5 +118,65 @@ td {
     text-align: center;   
   
   }
+  table, th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+   
+  th,td {
+    padding: 15px;
+    text-align: center;
+  }
+   
+  caption {
+    caption-side: bottom;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+  }
+   
+  .table-simple th {
+    background-color: black;
+    color: white;
+  }
+   
+  .table-simple tr:nth-child(even) {
+    background-color: #ececec;
+  }
+   
+  .table-simple tr:nth-child(odd) {
+    background-color: #fff;
+  }
+   
+  .table-simple tr:hover {
+    background-color: #acffe3;
+  }
+  
+  
 
+
+  /* styling from Generator  */
+  .GeneratedTable {
+    width: 50%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 3px;
+    border-color: #ffcc00;
+    border-style: dashed;
+    color: #000000;
+  }
+  
+  .GeneratedTable td, .GeneratedTable th {
+    border-width: 3px;
+    border-color: #ffcc00;
+    border-style: dashed;
+    padding: 10px;
+  }
+  
+  .GeneratedTable thead {
+    background-color: #ffcc00;
+  }
+  
+  
   
