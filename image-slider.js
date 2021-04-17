@@ -1,22 +1,22 @@
-var slideIndex = 1;
-
-showDivs(slideIndex);
-
+var imageCounter = 1;
+ 
+showDivs(imageCounter);
+ 
 function changeImage(n) {
-    showDivs(slideIndex += n);
+    showDivs(imageCounter += n);
 }
-
+ 
 function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("mySlides");
     if (n > x.length) {
-        slideIndex = 1;
+        imageCounter = 1;
     }
     if (n < 1) {
-        slideIndex = x.length;
+        imageCounter = x.length;
     }
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    x[slideIndex - 1].style.display = "block";
+    x[imageCounter - 1].style.display = "block";
 }
