@@ -2,7 +2,7 @@ var slideIndex = 1;
 
 showDivs(slideIndex);
 
-function plusDivs(n) {
+function changeImage(n) {
     showDivs(slideIndex += n);
 }
 
