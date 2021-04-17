@@ -2,8 +2,8 @@ var imageCounter = 1;
  
 showDivs(imageCounter);
  
-function changeImage(n) {
-    showDivs(imageCounter = imageCounter + n);
+function changeImage(m) {
+    showDivs(imageCounter = imageCounter + m);
 }
  
 function showDivs(n) {
